@@ -1,0 +1,22 @@
+{
+  "name": "chenxi8404",
+  "version": "1.0.0",
+  "description": "fuck测试模块",
+  "main": "Node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chenxi.cui",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuichenxi/android-gradle-plugin.git"
+  },
+  "keywords": [
+    "chenxi.123"
+  ],
+  "bugs": {
+    "url": "https://github.com/cuichenxi/android-gradle-plugin/issues"
+  },
+  "homepage": "https://github.com/cuichenxi/android-gradle-plugin#readme"
+}

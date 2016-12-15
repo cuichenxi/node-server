@@ -1,0 +1,91 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/5.7.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@3.6.0
+3 info using node@v5.7.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/Users/dzc/que/node/nodeServer',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /Users/dzc/.npm/chenxi8404/1.0.0/package.tgz not in flight; packing
+9 verbose correctMkdir /Users/dzc/.npm correctMkdir not in flight; initializing
+10 info lifecycle chenxi8404@1.0.0~prepublish: chenxi8404@1.0.0
+11 silly lifecycle chenxi8404@1.0.0~prepublish: no script for prepublish, continuing
+12 verbose tar pack [ '/Users/dzc/.npm/chenxi8404/1.0.0/package.tgz',
+12 verbose tar pack   '/Users/dzc/que/node/nodeServer' ]
+13 verbose tarball /Users/dzc/.npm/chenxi8404/1.0.0/package.tgz
+14 verbose folder /Users/dzc/que/node/nodeServer
+15 verbose addLocalTarball adding from inside cache /Users/dzc/.npm/chenxi8404/1.0.0/package.tgz
+16 verbose correctMkdir /Users/dzc/.npm correctMkdir not in flight; initializing
+17 silly cache afterAdd chenxi8404@1.0.0
+18 verbose afterAdd /Users/dzc/.npm/chenxi8404/1.0.0/package/package.json not in flight; writing
+19 verbose correctMkdir /Users/dzc/.npm correctMkdir not in flight; initializing
+20 verbose afterAdd /Users/dzc/.npm/chenxi8404/1.0.0/package/package.json written
+21 silly publish { name: 'chenxi8404',
+21 silly publish   version: '1.0.0',
+21 silly publish   description: 'fuck测试模块',
+21 silly publish   main: 'Node.js',
+21 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+21 silly publish   author: { name: 'chenxi.cui' },
+21 silly publish   license: 'ISC',
+21 silly publish   repository:
+21 silly publish    { type: 'git',
+21 silly publish      url: 'git+https://github.com/cuichenxi/android-gradle-plugin.git' },
+21 silly publish   keywords: [ 'chenxi.123' ],
+21 silly publish   bugs: { url: 'https://github.com/cuichenxi/android-gradle-plugin/issues' },
+21 silly publish   homepage: 'https://github.com/cuichenxi/android-gradle-plugin#readme',
+21 silly publish   readme: 'ERROR: No README data found!',
+21 silly publish   _id: 'chenxi8404@1.0.0',
+21 silly publish   _shasum: 'add36200640e86f5996a3685c4f9c5bbd0e3b511',
+21 silly publish   _from: '.' }
+22 verbose getPublishConfig undefined
+23 silly mapToRegistry name chenxi8404
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npm.taobao.org/
+26 silly mapToRegistry uri https://registry.npm.taobao.org/chenxi8404
+27 verbose publish registryBase https://registry.npm.taobao.org/
+28 silly publish uploading /Users/dzc/.npm/chenxi8404/1.0.0/package.tgz
+29 verbose request uri https://registry.npm.taobao.org/chenxi8404
+30 verbose request sending authorization for write operation
+31 info attempt registry request try #1 at 19:53:01
+32 verbose request id a1ba464084c4991c
+33 http request PUT https://registry.npm.taobao.org/chenxi8404
+34 http 403 https://registry.npm.taobao.org/chenxi8404
+35 verbose headers { date: 'Thu, 15 Dec 2016 11:53:01 GMT',
+35 verbose headers   'content-type': 'application/json; charset=utf-8',
+35 verbose headers   'content-length': '87',
+35 verbose headers   connection: 'keep-alive',
+35 verbose headers   'x-current-requests': '1',
+35 verbose headers   'x-readtime': '7' }
+36 verbose request invalidating /Users/dzc/.npm/registry.npm.taobao.org/chenxi8404 on PUT
+37 error publish Failed PUT 403
+38 verbose stack Error: no_perms Private mode enable, only admin can publish this module: chenxi8404
+38 verbose stack     at makeError (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+38 verbose stack     at CachingRegistryClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+38 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+38 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:198:22)
+38 verbose stack     at emitTwo (events.js:100:13)
+38 verbose stack     at Request.emit (events.js:185:7)
+38 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1035:10)
+38 verbose stack     at emitOne (events.js:95:20)
+38 verbose stack     at Request.emit (events.js:182:7)
+38 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:962:12)
+39 verbose statusCode 403
+40 verbose pkgid chenxi8404
+41 verbose cwd /Users/dzc/que/node/nodeServer
+42 error Darwin 14.5.0
+43 error argv "/usr/local/Cellar/node/5.7.0/bin/node" "/usr/local/bin/npm" "publish"
+44 error node v5.7.0
+45 error npm  v3.6.0
+46 error code E403
+47 error no_perms Private mode enable, only admin can publish this module: chenxi8404
+48 error If you need help, you may report this error at:
+48 error     <https://github.com/npm/npm/issues>
+49 verbose exit [ 1, true ]
